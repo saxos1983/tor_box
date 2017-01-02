@@ -4,7 +4,7 @@
 
 /bin/echo "Updating system and installing Tor:"
 /usr/bin/apt-get -y update
-/usr/bin/apt-get -y upgrade
+#/usr/bin/apt-get -y upgrade
 /usr/bin/apt-get -y install tor 
 
 /bin/echo "Firewall settings:"
